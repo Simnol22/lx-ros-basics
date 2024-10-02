@@ -12,7 +12,6 @@
         "tests"
     ],
     "files.exclude": {
-        ".gitignore": true,
         ".pytest_cache": true,
         ".dtproject": true
     },

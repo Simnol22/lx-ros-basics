@@ -8,13 +8,10 @@ html/*
 *.resolved
 
 # project-specific
-workspace/*
-workspace/src
-
 .DS_Store
 
-packages/*
-packages/.catkin_tools/*
-packages/build/*
-packages/devel/*
-packages/logs/*
+#to be able to push src of projects without everything else
+build/
+.catkin_tools/
+devel/
+logs/
